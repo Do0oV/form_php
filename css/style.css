@@ -1,0 +1,101 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	font-family: 'Special Elite', cursive;	
+	color: black;
+}
+.container {
+	margin-left: 9%;
+	margin-right: 40%;
+	margin-top: 2%;
+	border-radius: 2%;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	margin-bottom: -5%;
+}
+fieldset {
+	width: 90%;
+	align-self: center;
+}
+legend{
+	color: white;
+}
+fieldset label{
+	margin-right: 3%;
+}
+select{
+	font-family: 'Special Elite', cursive;
+	border: solid 2px white;
+	font-size: 20px;
+	padding: 5px 5px;
+	background-color: rgba(255,255,255, 0.4);
+}
+.select {
+		align-self: center;
+		margin-top: 5%;
+}
+.select option {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	padding: 5px 5px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+label {
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	margin-left: 4%;
+	color: white;
+	font-size: 1.3em;
+}
+input{
+	font-family: 'Special Elite', cursive;
+	border: solid 2px white;
+	font-size: 20px;
+	padding: 5px 5px;
+	width: 90%;
+	background-color: rgba(255,255,255, 0.4);
+	align-self: center;
+}
+textarea {
+	font-family: 'Special Elite', cursive;
+	border: solid 2px white;
+	background-color: rgba(255,255,255, 0.4);
+	font-size: 20px;
+	padding: 5px 5px;
+	width: 90%;
+	height: 200px;
+	align-self: center
+}
+#submit {
+	font-family: 'Special Elite', cursive;
+	margin-top: 5%;
+	width: 20%;
+	align-self: center;
+	font-size: 1.3em;
+	padding: 5px 5px;
+	cursor:pointer;
+	background-color: rgba(255,255,255);
+}
+input:focus, textarea:focus, #submit:focus{
+	outline: none;
+}
+.echo {
+	font-size: 1.1em;
+	color: black;
+	padding-left: 10%;
+}
+#ok {
+	font-size: 1.7em;
+	color: black;
+	text-align: center;
+	margin-top: 5%;
+}
